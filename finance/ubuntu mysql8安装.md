@@ -1,9 +1,10 @@
 # ubuntu mysql8安装(mysql5.7升级为8.0)
 
-背景：
+## 背景
 
 本地开发用的是mysql8，ubuntu上的mysql版本比较老，不支持utf8mb4_0900_ai_ci字符集排序规则，在mysql8中导出的数据，想导入mysql5.7总是utf8mb4_0900_ai_ci报错，所以直接升级ubuntu服务器上的mysql为最新的mysql-apt-config_0.8.24-1_all.deb（2022.9.24）
 
+## 安装
 - 查看当前软件包的最新版本：
 
 ```bash
