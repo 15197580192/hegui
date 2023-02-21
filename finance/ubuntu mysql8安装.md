@@ -87,7 +87,7 @@ mysql --version
 
 重启服务，查看此时3306端口已经处于开放状态，也就是 所有计算机都能访问到
 
-![image-20230221193519394](E:\typora-imag\image-20230221193519394.png)
+![image-20230221193519394](https://cdn.jsdelivr.net/gh/15197580192/imag@main/img/image-20230221193519394.png)
 
 查看mysql运行状态：sudo service mysql status
 
